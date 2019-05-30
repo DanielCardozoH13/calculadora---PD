@@ -1,0 +1,12 @@
+Calculadora en Python v3 con interfaz gráfica en Tkinter, solicitando metodos a objetos remotos con Pyro4
+
+Instalar los pip necesarios (Tk() y Pyro4):
+
+pip install python-tk
+pip install Pyro4
+
+Ejecutar en una terminar aparte el comando "python -m Pyro4.naming"
+Ejecutar el archivo "server.py"
+Ejecutar el archivo "client.py"
+
+En el campo de entrada "URI" ingresar "daniel.com" y presionar el boton "Conectar"
