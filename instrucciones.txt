@@ -1,12 +1,15 @@
 Calculadora en Python v3 con interfaz gráfica en Tkinter, solicitando metodos a objetos remotos con Pyro4
 
-Instalar los pip necesarios (Tk() y Pyro4):
+Instalar los pip necesarios (Tkinter, Pyro4 y matplotlib):
 
 pip install python-tk
 pip install Pyro4
+pip install matplotlib
 
-Ejecutar en una terminar aparte el comando "python -m Pyro4.naming"
-Ejecutar el archivo "server.py"
-Ejecutar el archivo "client.py"
+Ejecutar en una terminar aparte el comando "python -m Pyro4.naming" para ejecutar el servidor de nombres local de Pyro4
+Luego ejecutar el archivo "server.py"
+y por último ejecutar el archivo "client.py"
 
-En el campo de entrada "URI" ingresar "daniel.com" y presionar el boton "Conectar"
+En la ventana princila aparecera un campo de entrada enseguida de una etiqueta "Uri:", ahí ingresar "daniel.com" y precionar el botón "Conectar"
+
+Para observar las graficas de las funciones lineales y cuadraticas, precionar el boton "f(x)" que esta justo encima del boton "=".
